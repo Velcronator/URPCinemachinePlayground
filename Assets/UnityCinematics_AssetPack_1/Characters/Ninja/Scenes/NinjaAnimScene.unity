@@ -196,13 +196,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 946697543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.87771285, y: 0.11504449, z: -0.38346332, w: 0.26332644}
+  m_LocalRotation: {x: 0.58963895, y: 0.30646047, z: -0.25760692, w: 0.7014603}
   m_LocalPosition: {x: -945.51587, y: -393.56705, z: -12.107299}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 625178922}
-  m_LocalEulerAnglesHint: {x: 146.6, y: 47.2, z: 0}
+  m_LocalEulerAnglesHint: {x: 80.1, y: 47.2, z: 0}
 --- !u!114 &946697545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,14 +236,14 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.61
+  m_Color: {r: 1, g: 0.504717, b: 0.504717, a: 1}
+  m_Intensity: 0.25
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -317,13 +317,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013184113}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -978.256, y: -380.88, z: 1.212}
+  m_LocalRotation: {x: -0.008988236, y: 0.99995965, z: -0, w: 0}
+  m_LocalPosition: {x: -978.6, y: -380.88, z: 2.58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 625178922}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: -1.03}
 --- !u!114 &1013184115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -552,7 +552,6 @@ Transform:
   - {fileID: 1060473613}
   - {fileID: 2022960277}
   - {fileID: 543450652013223199}
-  - {fileID: 1912806311}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1912806310
@@ -582,11 +581,11 @@ Transform:
   m_GameObject: {fileID: 1912806310}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 14.18, y: 3.26, z: 36.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1545518851}
+  m_Father: {fileID: 2044813386}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!73398921 &1912806312
 VFXRenderer:
@@ -835,13 +834,18 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022960272}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.017722612, y: 0.7880076, z: -0.022708515, w: -0.6149913}
-  m_LocalPosition: {x: 1.8498037, y: 0.49864274, z: 0.9946696}
+  m_LocalRotation: {x: 0.03564776, y: -0.6289074, z: 0.02888579, w: 0.77612525}
+  m_LocalPosition: {x: 3.4118917, y: 1.5901526, z: 2.5031579}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1545518851}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!4 &2044813386 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8745771366600843398, guid: 491d790edebbf6941887a1979da0f135, type: 3}
+  m_PrefabInstance: {fileID: 1309828500312011758}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &94293794423440445
 Transform:
   m_ObjectHideFlags: 0
@@ -1163,7 +1167,7 @@ Animator:
   m_GameObject: {fileID: 919132147485476773}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 427e0ec8fbf58d94c895fbee081e2e92, type: 3}
-  m_Controller: {fileID: 9100000, guid: 2bde4631b80eb5648bfd89479fb7c998, type: 2}
+  m_Controller: {fileID: 9100000, guid: b3abb283a1d2b0c4aa06986edd46faa4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1356,7 +1360,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8745771366600843398, guid: 491d790edebbf6941887a1979da0f135, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1912806311}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 491d790edebbf6941887a1979da0f135, type: 3}
 --- !u!4 &1568613975956761021
